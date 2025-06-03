@@ -17,7 +17,7 @@ master.title("Main Window")
 date = dt.datetime.now()
 
 
-# Functions to open new windows
+# Functions to open new windows.
 def open_meal_window():
     new_window = Toplevel(master)  # Create a new window
     new_window.title("Meal Budget")
